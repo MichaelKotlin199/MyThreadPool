@@ -9,7 +9,7 @@ fun main() {
     for (i in 1..7) {
         threadPool.execute {
             println("$i")
-            Thread.sleep(1000) // Имитация работы
+            Thread.sleep(1000)
         }
     }
     sleep(4000)
